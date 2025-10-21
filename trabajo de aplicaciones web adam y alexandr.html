@@ -21,13 +21,79 @@
         }
         
         .funciones li{
-            margin-right: 25%; list-style: none; align-self: center; font-size: 16px;
+            margin-right: 25%; list-style: none; align-self: center; font-size: 16px; text-align: center;
+            position: relative;
         }
         
         .funciones li a:hover{
             color: red;
             font-size: 18px;
         }
+
+        .cuadro-links-info {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            background-color: rgb(37, 37, 37);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+            margin-top: 5px;
+            transition: visibility 0s 0.1s, opacity 0.1s linear;
+        }
+
+        .cuadro-links-info a {
+            color: rgb(0, 145, 145);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .cuadro-links-info a:hover {
+            background-color: #2c2c2c;
+        }
+
+        .cuadro-links:hover .cuadro-links-info {
+            visibility: visible;
+            opacity: 1;
+            transition-delay: 0s;
+        }
+
+        .cuadro-info-nosotros-contenido {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            background-color: rgb(37, 37, 37);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+            margin-top: 5px;
+            transition: visibility 0s 0.1s, opacity 0.1s linear;
+        }
+
+        .cuadro-info-nosotros-contenido p {
+            color: rgb(0, 145, 145);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .cuadro-info-nosotros-contenido a:hover {
+            background-color: #2c2c2c;
+        }
+
+        .cuadro-info-nosotros:hover .cuadro-info-nosotros-contenido {
+            visibility: visible;
+            opacity: 1;
+            transition-delay: 0s;
+        }
+        
+
+
         .ordenador, .historia_de_la_informatica, .componentes, .tecnologias_de_procesador, .diferentes_tecnologias_de_tarjeta_grafica, .mejores_componentes_clidad_precio, .construccion_de_ordenadores{
             background-color: lightgrey; margin: 20px; padding: 10px; border-radius: 10px;
             
@@ -71,9 +137,26 @@
         <!-- MENU DE NAVEGACION -->
         <ul class="funciones">
             <li><a href="trabajo de aplicaciones web adam y alexandr.html"> home</a></li>
-            <li>links</li>
-            <li>sobre nosotros</li>
-            <li>donaciones</li>
+            <li class="cuadro-links">
+                <a href="#">links</a>
+                <div class="cuadro-links-info">
+                    <a href="https://www.example1.com">Que es un ordenador?</a>
+                    <a href="https://www.example2.com">Historia de la informática</a>
+                    <a href="https://www.example3.com">Componentes de un ordenador</a>
+                    <a href="https://www.example3.com">Tecnologías de procesador</a>
+                    <a href="https://www.example3.com">Diferentes tecnologías de tarjeta gráfica</a>
+                    <a href="https://www.example3.com">Mejores componentes calidad/precio</a>
+                    <a href="https://www.example3.com">Construcción de ordenadores</a>
+                </div>
+            </li>
+            <li class="cuadro-info-nosotros">
+                <a href="#">sobre nosotros</a>
+                <div class="cuadro-info-nosotros-contenido">
+                    <p>Correo web: ejemplo@correo.com</p>
+                    <p>Telefono web: 123-456-7890</p>
+                </div>
+            </li>
+            <li><a href="#">donaciones</a></li>
         </ul>
 
 
