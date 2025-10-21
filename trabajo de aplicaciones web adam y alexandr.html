@@ -2,8 +2,9 @@
     <style>
         
         .titulo{
+            font-family: 'arial black'; font-size: 36px; text-align: center;
             color: rgb(174, 0, 255);
-            background-color: black; 
+            background-color: rgba(19, 15, 15, 0); 
         }
 
         .titulo_entero{
@@ -16,17 +17,41 @@
         }
 
         .funciones{
-            display: flex; background-color: black; color: aqua;
+            display: flex; background-color: rgb(37, 37, 37); color: rgb(0, 145, 145); padding: 10px; border-radius: 10px;
         }
         
         .funciones li{
-            margin-right: 25%; list-style: none;
+            margin-right: 25%; list-style: none; align-self: center; font-size: 16px;
         }
         
         .funciones li a:hover{
             color: red;
             font-size: 18px;
         }
+        .ordenador, .historia_de_la_informatica, .componentes, .tecnologias_de_procesador, .diferentes_tecnologias_de_tarjeta_grafica, .mejores_componentes_clidad_precio, .construccion_de_ordenadores{
+            background-color: lightgrey; margin: 20px; padding: 10px; border-radius: 10px;
+            
+        }
+
+        .texto_apartado{
+            font-family: 'arial'; font-size: 16px; text-align: center ;color: black; 
+        }
+        .titulo_apartado{
+            font-family: 'arial black'; font-size: 24px;text-align: center; color: darkblue;
+        }
+        .lista_de_componentes li{
+            margin-bottom: 5px;
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: black;
+            font-size: 16px;
+            list-style: none;
+        }
+        .link_apartado{
+            display: flex; justify-content: center; color: darkred; font-size: 16px; text-decoration: none;text-decoration: underline;
+        }
+
     </style>
 
 
@@ -39,7 +64,7 @@
         <!-- TITULO E IMAGEN DE PAGINA -->
         <div class="titulo_entero">                    
         <img class="imagen_titulo" src="https://img.freepik.com/vector-gratis/plantilla-logotipo-computadora-tecnologia_23-2149204144.jpg?semt=ais_hybrid&w=740&q=80">
-        <h1 class=titulo> Información informática </h1>
+        <h1 class=titulo> INFORMACIÓN INFORMÁTICA </h1>
         </div>
 
 
@@ -55,56 +80,57 @@
 
         <!-- CONTENIDO DE HOME -->
         <div class="ordenador">
-        <h2> ¿Que es un ordenador? </h2>
-        <p></p>
-        <a href=>fuente de información</a>
+        <h2 class="titulo_apartado"> ¿Que es un ordenador? </h2>
+        <p class="texto_apartado">ejemplo texto</p>
+        <a class="link_apartado" href="">fuente de información</a>
         </div>
 
 
         <div class ="historia_de_la_informatica">
-        <h2> La historia de la informática</h2>
-        <p></p>
-        <a href=""></a>
+        <h2 class="titulo_apartado"> La historia de la informática</h2>
+        <p class="texto_apartado">ejemplo texto</p>
+        <a class="link_apartado" href="">link ejemplo</a>
         </div>
 
-
+        <!-- se pone la descripcion de los como ponentes como componente:descripcion -->
         <div class="componentes">
-        <h2> Componentes de un ordenador </h2>
-        <p></p>
+        <h2 class="titulo_apartado"> Componentes de un ordenador </h2>
+        <p class="texto_apartado"></p>
         <ul class="lista_de_componentes">
-            <li>Placa base</li>
-            <li>Procesador</li>
-            <li>Memoria RAM</li>
-            <li>Disco duro</li>
-            <li>Tarjeta gráfica</li>
-            <li>Fuente de alimentación</li>
-            <li>Unidad óptica</li>
-            <li>Periféricos</li>
+            <li>Placa base: ejemplo descripcion</li>
+            <li>Procesador: ejemplo descripcion</li>
+            <li>Memoria RAM: ejemplo descripcion</li>
+            <li>Disco duro: ejemplo descripcion</li>
+            <li>Tarjeta gráfica: ejemplo descripcion</li>
+            <li>Fuente de alimentación: ejemplo descripcion</li>
+            <li>Unidad óptica: ejemplo descripcion</li>
+            <li>Periféricos: ejemplo descripcion</li>
         </ul>
+        <a class="link_apartado" href="">link ejemplo</a>
         </div>
 
         <div class="tecnologias_de_procesador">
-        <h2> Tecnologías de procesador </h2>
-        <p></p>
-        <a href=""></a>
+        <h2 class="titulo_apartado"> Tecnologías de procesador </h2>
+        <p class="texto_apartado">ejemplo texto</p>
+        <a class="link_apartado" href="">link ejemplo</a>
         </div>
 
         <div class="diferentes_tecnologias_de_tarjeta_grafica">
-        <h2> Diferentes tecnologías de tarjeta gráfica </h2>
-        <p></p>
-        <a href=""></a>
+        <h2 class="titulo_apartado"> Diferentes tecnologías de tarjeta gráfica </h2>
+        <p class="texto_apartado">ejemplo texto</p>
+        <a class="link_apartado" href="">link ejemplo</a>
         </div>
         
         <div class="mejores_componentes_clidad_precio">
-        <h2> Mejores componentes calidad/precio </h2>
-        <p></p>
-        <a href=""></a>
+        <h2 class="titulo_apartado"> Mejores componentes calidad/precio </h2>
+        <p class="texto_apartado">ejemplo texto</p>
+        <a class="link_apartado" href="">link ejemplo</a>
         </div>
 
         <div class="construccion_de_ordenadores">
-        <h2> Construcción de ordenadores </h2>
-        <p></p>
-        <a href=""></a>
+        <h2 class="titulo_apartado"> Construcción de ordenadores </h2>
+        <p class="texto_apartado">ejemplo texto</p>
+        <a class="link_apartado" href="">link ejemplo</a>
         </div>
 
 
