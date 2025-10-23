@@ -1,0 +1,23 @@
+.ordenador, .historia_de_la_informatica, .componentes, .tecnologias_de_procesador, .diferentes_tecnologias_de_tarjeta_grafica, .mejores_componentes_clidad_precio, .construccion_de_ordenadores{
+background-color: lightgrey; margin: 20px; padding: 10px; border-radius: 10px;
+            
+}
+
+.texto_apartado{
+font-family: 'arial'; font-size: 16px; text-align: center ;color: black; 
+}
+.titulo_apartado{
+font-family: 'arial black'; font-size: 24px;text-align: center; color: darkblue;
+}
+.lista_de_componentes li{
+margin-bottom: 5px;
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color: black;
+font-size: 16px;
+list-style: none;
+}
+.link_apartado{
+display: flex; justify-content: center; color: darkred; font-size: 16px; text-decoration: none;text-decoration: underline;
+}

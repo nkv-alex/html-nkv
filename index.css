@@ -17,20 +17,20 @@ height: 100px;
 .funciones{
 display: flex; background-color: rgb(37, 37, 37); color: rgb(0, 145, 145); padding: 10px; border-radius: 10px;
 }
-        
+
 .funciones li{
 margin-right: 25%; list-style: none; align-self: center; font-size: 16px; text-align: center;
 position: relative;
 transition: transform 0.12s ease, color 0.12s ease;
 transform-origin: center center;
 }
-        
+
 .funciones li a:hover{
 color: red;
 font-size: 18px;
 }
-        
-        
+
+
 .funciones > li:hover {
 transform: scale(1.08);
 }
@@ -96,30 +96,6 @@ background-color: #2c2c2c;
 visibility: visible;
 opacity: 1;
 transition-delay: 0s;
-}
-        
+}        
 
 /* Estilo de los apartados del home */
-.ordenador, .historia_de_la_informatica, .componentes, .tecnologias_de_procesador, .diferentes_tecnologias_de_tarjeta_grafica, .mejores_componentes_clidad_precio, .construccion_de_ordenadores{
-background-color: lightgrey; margin: 20px; padding: 10px; border-radius: 10px;
-            
-}
-
-.texto_apartado{
-font-family: 'arial'; font-size: 16px; text-align: center ;color: black; 
-}
-.titulo_apartado{
-font-family: 'arial black'; font-size: 24px;text-align: center; color: darkblue;
-}
-.lista_de_componentes li{
-margin-bottom: 5px;
-font-style: italic;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
-color: black;
-font-size: 16px;
-list-style: none;
-}
-.link_apartado{
-display: flex; justify-content: center; color: darkred; font-size: 16px; text-decoration: none;text-decoration: underline;
-}
