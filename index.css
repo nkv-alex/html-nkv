@@ -18,13 +18,16 @@ height: 100px;
 display: flex; background-color: rgb(37, 37, 37); color: rgb(0, 145, 145); padding: 10px; border-radius: 10px;
 }
         
-.funciones li{
+.funciones li {
 margin-right: 19%; list-style: none; align-self: center; font-size: 16px; text-align: center;
 position: relative;
 transition: transform 0.12s ease, color 0.12s ease;
-transform-origin: center center;
+transform-origin: center center; 
 }
-        
+
+.funciones li a {
+color: seagreen;
+}
 .funciones li a:hover{
 color: red;
 }
