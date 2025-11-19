@@ -2,6 +2,7 @@
  <head>
         <title>"proyecto adam taoufik ezouhari y alexandr tuceac"</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="donaciones.css">
  </head>
 <body>
     <!-- TITULO E IMAGEN DE PAGINA -->
@@ -19,15 +20,40 @@
                 </div>
             </li>
             <li class="info-sobre-nosotros">
-                <a href="sobre nosotros.html">sobre nosotros</a>  
+                <a href="sobre-nosotros.html">sobre nosotros</a>  
             </li>
-            <li><a href="contactos.html">donaciones</a></li>
+            <li><a href="donaciones.html">donaciones</a></li>
             <li class="quienes-somos">
-                <a href="donaciones.html">quienes somos</a>
+                <a href="contactos.html">quienes somos</a>
             </li>
         </ul>
     
     <!--SECCION DE DONACIONES-->
+    <div class="div-donaciones">
+        <form action="#" method="post" style="max-width: 400px; margin: 0 auto;">
+            
+            <h2>Proceso de Pago</h2>
 
-    
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tarjeta">Número de tarjeta</label>
+            <input type="text" id="tarjeta" name="tarjeta" maxlength="16" required>
+
+            <label for="exp">Fecha de expiración</label>
+            <input type="month" id="exp" name="exp" required>
+
+            <label for="cvv">CVV</label>
+            <input type="password" id="cvv" name="cvv" maxlength="3" required>
+
+            <label for="monto">Monto</label>
+            <input type="number" id="monto" name="monto" min="1" required>
+
+            <button type="submit">Procesar Pago</button>
+        </form>
+    </div>
+        
 </body>
