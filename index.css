@@ -1,34 +1,59 @@
 .titulo{
-font-family: 'arial black'; font-size: 36px; text-align: center;
-color: rgb(174, 0, 255);
-background-color: rgba(19, 15, 15, 0); 
+    display: flex;
+    margin-right: 25%;
+    color: aqua;
 }
 
-.titulo_entero{
-display: flex; margin-right: 25%;
+.opciones{
+    display: flex;
+    background-color: aqua;
+    border-radius: 10px;   
+    width: 100%;
+}
+.opciones li{
+    margin-right: 25%;
+    list-style: none;
+    
+}
+.opciones ul li a{
+    text-decoration: none;
+    color:  black;
 }
 
-.imagen_titulo{
-display: flex;
-height: 100px;
+.opciones :hover{
+    color: purple;
+}
+#imagen1 img{
+    width: 100px;
 }
 
-/* Estilo del menú */
-.funciones{
-display: flex; background-color: rgb(37, 37, 37); color: rgb(0, 145, 145); padding: 10px; border-radius: 10px;
+.footer{
+    background-color: aqua;
+    
 }
-        
-.funciones li {
-margin-right: 19%; list-style: none; align-self: center; font-size: 16px; text-align: center;
-position: relative;
-transition: transform 0.12s ease, color 0.12s ease;
-transform-origin: center center; 
+.footer li{
+    list-style: none;
 }
-
-.funciones li a {
-color: seagreen;
+.footer{
+    display: flex;
+    padding: 40px;
+    border-radius: 10px;
 }
-.funciones li a:hover{
-color: red;
+.opciones_footer{
+    display: flex;
 }
-
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+.imagenes_logos img{
+    width: 90px;
+    padding-left: 100px;
+    
+}
+.imagenes_logos{
+    margin-left: 500px;
+}
+.footer_opciones :hover{
+    color: purple;
+}

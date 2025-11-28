@@ -1,4 +1,12 @@
+.div-donaciones {
+    width: auto;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 form {
+    width: auto;
     background: #f5f5f5;
     padding: 20px;
     border-radius: 10px;
@@ -14,11 +22,14 @@ input, button {
 }
 
 button {
-    background: #007bff;
+    background: aqua;
     color: white;
     border: none;
     cursor: pointer;
 }
 button:hover {
     background: #005fcc;
+}
+body{
+    background-color: black;
 }

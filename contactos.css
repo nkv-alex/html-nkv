@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: auto;
+  gap: 20px;
+  height: 90%;
+}
+
+.person {
+  background-color: gray;
+  color: #000;
+  padding: 20px;
+  border-radius: 8px;
+  width: 50%; 
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.person h3 {
+  margin-top: 0;
+  font-size: 40px;
+  color: white;
+}
+.person p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+}
+

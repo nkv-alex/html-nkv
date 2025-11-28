@@ -1,23 +1,34 @@
-.ordenador, .historia_de_la_informatica, .componentes, .tecnologias_de_procesador, .diferentes_tecnologias_de_tarjeta_grafica, .mejores_componentes_clidad_precio, .construccion_de_ordenadores{
-background-color: lightgrey; margin: 20px; padding: 10px; border-radius: 10px;
-            
+body{
+    background-color: black;
 }
 
-.texto_apartado{
-font-family: 'arial'; font-size: 16px; text-align: center ;color: black; 
+.que-somos{
+    background-color: gray;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 }
-.titulo_apartado{
-font-family: 'arial black'; font-size: 24px;text-align: center; color: darkblue;
+
+.que-somos video {
+    margin-left: auto; 
 }
-.lista_de_componentes li{
-margin-bottom: 5px;
-font-style: italic;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
-color: black;
-font-size: 16px;
-list-style: none;
+
+.texto {
+    flex: 1; 
 }
-.link_apartado{
-display: flex; justify-content: center; color: darkred; font-size: 16px; text-decoration: none;text-decoration: underline;
+
+.que-somos h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+.que-somos p {
+    color: white;
+    line-height: 1.6;
+}
+.que-somos h1 {
+    color: white;
 }

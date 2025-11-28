@@ -1,59 +1,74 @@
 <html>
- <head>
-        <title>"proyecto adam taoufik ezouhari y alexandr tuceac"</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="donaciones.css">
- </head>
-<body>
-    <!-- TITULO E IMAGEN DE PAGINA -->
-        <div class="titulo_entero">                    
-        <img class="imagen_titulo" src="https://img.freepik.com/vector-gratis/plantilla-logotipo-computadora-tecnologia_23-2149204144.jpg?semt=ais_hybrid&w=740&q=80">
-        <h1 class=titulo> INFORMACIÓN INFORMÁTICA </h1>
+ <head title= "Trabajo de aplicaciones web">
+    <link rel="stylesheet" href="donaciones.css">
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="titulo">
+            
+            <div id="imagen1">
+                <img src="https://thumbs.dreamstime.com/b/tecnolog%C3%ADa-global-logo-template-design-vector-emblema-concepto-de-dise%C3%B1o-s%C3%ADmbolo-creativo-icono-94271347.jpg">
+            </div>
+            <h1 class="titulo_letras">Tecnology information</h1>
+        </div> 
+        <div class="opciones">
+               
+                <ul class="opciones">
+                    <li><a href="trabajo_de_aplicaciones_web.html">home</a></li>
+                    <li><a href="sobre-nosotros.html">Quienes somos</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>
+                    <li><a href="donaciones.html">Apollanos</a></li>
+                    
+                </ul>
+            
         </div>
-
-
-        <!-- MENU DE NAVEGACION -->
-        <ul class="funciones">
-            <li><a href="trabajo de aplicaciones web adam y alexandr.html"> home</a></li>
-            <li class="cuadro-links">
-                <a href="links.html">links</a>
-                </div>
-            </li>
-            <li class="info-sobre-nosotros">
-                <a href="sobre-nosotros.html">sobre nosotros</a>  
-            </li>
-            <li><a href="donaciones.html">donaciones</a></li>
-            <li class="quienes-somos">
-                <a href="contactos.html">quienes somos</a>
-            </li>
-        </ul>
     
     <!--SECCION DE DONACIONES-->
     <div class="div-donaciones">
-        <form action="#" method="post" style="max-width: 400px; margin: 0 auto;">
-            
-            <h2>Proceso de Pago</h2>
+        <form class="form">
+            <label class="label">Nombre</label>
+            <input class="input" type="text" required>
 
-            <label for="nombre">Nombre completo</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <label class="label">Email</label>
+            <input class="input" type="text" required>
 
-            <label for="email">Correo electrónico</label>
-            <input type="email" id="email" name="email" required>
+            <label class="label">Tarjeta</label>
+            <input class="input" type="text" maxlength="16" required>
 
-            <label for="tarjeta">Número de tarjeta</label>
-            <input type="text" id="tarjeta" name="tarjeta" maxlength="16" required>
+            <label class="label">Expiración</label>
+            <input class="input" type="date" required>
 
-            <label for="exp">Fecha de expiración</label>
-            <input type="month" id="exp" name="exp" required>
+            <label class="label">CVV</label>
+            <input class="input" type="password" maxlength="3" required>
 
-            <label for="cvv">CVV</label>
-            <input type="password" id="cvv" name="cvv" maxlength="3" required>
+            <label class="label">Monto</label>
+            <input class="input" type="number" min="1" required>
 
-            <label for="monto">Monto</label>
-            <input type="number" id="monto" name="monto" min="1" required>
-
-            <button type="submit">Procesar Pago</button>
+             <button class="btn" type="submit">Pagar</button>
         </form>
     </div>
-        
+    <div class="footer">
+    
+                        <ul>
+                            <li>Private policy</li>
+                            <li>Site Mapos</li>
+                            <li>FAQ</li>
+                        </ul>
+
+                    <div class="footer_opciones">
+                        <ul>                        
+                            <li><a href="home.html">home</a></li>
+                            <li><a href="quienes_somos.html">quienes somos</a></li>
+                            <li><a href="contacto.html">contacto</a></li>
+                            <li><a href="Formulario.html">Formulario</a></li>
+                        
+                        </ul>
+                    </div>
+                        <div class="imagenes_logos">
+                            <img src="https://www.pixartprinting.es/blog/wp-content/uploads/2025/05/Youtube_logo.jpg">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/1028px-Logo_de_Facebook.png">
+                        </div>
+                </div>
+                
 </body>

@@ -1,35 +1,90 @@
-.ordenador, .historia_de_la_informatica, .componentes, .tecnologias_de_procesador, .diferentes_tecnologias_de_tarjeta_grafica, .mejores_componentes_clidad_precio, .construccion_de_ordenadores{
-background-color: lightgrey; margin: 20px; padding: 10px; border-radius: 10px;
-            
+
+body{
+    background-color: black;
+}
+.historia{
+    background-color: gray;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.componentes{
+    background-color: gray;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.microprocesador{
+    background-color: grey;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.grafica{
+    background-color: gray;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.mejores{
+    background-color: grey;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.ordenador{
+    background-color: gray;
+    padding: 60px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.historia{
+    display: flex;
+
+}
+.parrafo{
+    margin-bottom: 25px;
+}
+.imagenes img{
+    width: 250px;
 }
 
-.ordenador:hover, .historia_de_la_informatica:hover, .componentes:hover, .tecnologias_de_procesador:hover, .diferentes_tecnologias_de_tarjeta_grafica:hover, .mejores_componentes_clidad_precio:hover, .construccion_de_ordenadores:hover{
- box-shadow: 2px 2px 10px rgb(0, 153, 255);
+.componentes{
+    display: flex;
 
+}
+.microprocesador{
+    display: flex;
+}
+.grafica{
+    display: flex;
+}
+.mejores{
+    display: flex;
+}
+.ordenador{
+    display: flex;
+}
+.texto2{
+    margin-left: 10px;
+}
+.texto3{
+    margin-left: 10px;
+}
+.texto4{
+    margin-left: 10px;
+}
+.texto5{
+    margin-left: 10px;
+}
+.texto6{
+    margin-left: 10px;
+    
+}
+.explicaciones{
+    font-size: 14px;
 }
 
 
 
-
-.texto_apartado{
-font-family: 'arial'; font-size: 16px; text-align: center ;color: black; 
-}
-.titulo_apartado{
-font-family: 'arial black'; font-size: 24px;text-align: center; color: darkblue;
-}
-.lista_de_componentes li{
-margin-bottom: 5px;
-font-style: italic;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
-color: black;
-font-size: 16px;
-list-style: none;
-}
-
-.lista_de_componentes li a{
-color: darkred; text-decoration: underline;
-}
-.link_apartado{
-display: flex; justify-content: center; color: darkred; font-size: 16px; text-decoration: none;text-decoration: underline;
-}
